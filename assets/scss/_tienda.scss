@@ -1,0 +1,17 @@
+@import "variables.scss";
+
+.main {
+    .sectionCard{
+        @include propiedadesFlex(flex,row,wrap,space-around,start);
+        .card{
+            width: 250px;
+            background-color: #5C527F;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            padding: 10px;
+        }
+    }
+}

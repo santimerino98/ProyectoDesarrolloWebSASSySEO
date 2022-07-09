@@ -1,0 +1,21 @@
+$colores:(
+    primario:#2c0b8e,
+    secundario:#fff,
+    terciario:rgb(99, 57, 175)
+);
+
+$boton:(
+    padding: 5px 10px,
+    borde: 2px solid #2c0b8e,
+    color: #fff,
+    fondo:#2c0b8e
+);
+
+@mixin propiedadesFlex ($display, $direccion, $wrap, $justify, $align){
+    display: $display;
+    flex-direction: $direccion;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+}
+

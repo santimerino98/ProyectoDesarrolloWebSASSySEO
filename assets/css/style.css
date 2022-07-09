@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.btn, .btn-carrito {
+  padding: 5px 10px;
+  border: 2px solid #2c0b8e;
+  color: #fff;
+  background-color: #2c0b8e;
+}
+
+.btn-carrito {
+  border-radius: 1px;
+}
+
+.btn-primario {
+  background-color: #2c0b8e;
+}
+
+.btn-secundario {
+  background-color: #fff;
+}
+
+.btn-terciario {
+  background-color: rgb(99, 57, 175);
+}
+
+.contenedor {
+  color: white;
+  background-color: #3E2C41;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+.navegador {
+  background-color: #261C2C;
+}
+.navegador .navBar {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  font-size: 0.8rem;
+  padding: 0;
+  margin: 0;
+}
+.navegador .navBar a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+.navegador .imgNavbar {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.navegador .imgNavbar .efectoLogo:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+@media (min-width: 768px) {
+  .navegador .navBar li {
+    font-size: 1.15rem;
+  }
+  .navegador .navBar li a {
+    padding: 8px;
+  }
+
+  a:hover {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .navegador .navBar li {
+    font-size: 1.5rem;
+  }
+  .navegador .navBar li a {
+    padding: 10px;
+  }
+}
+.header {
+  font-size: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .header h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .header h1 {
+    font-size: 3rem;
+  }
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .sectionPrincipal {
+  font-size: 1rem;
+  text-align: center;
+  margin: 10px;
+}
+.main .sectionPrincipal img {
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .main .sectionPrincipal {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .main .sectionPrincipal {
+    font-size: 1.5rem;
+  }
+  .main .sectionPrincipal .carousel {
+    width: 1000px;
+    margin: auto;
+  }
+}
+.pieDePag {
+  background-color: #261C2C;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  margin-top: auto;
+}
+.pieDePag div {
+  margin: 10px;
+  text-align: center;
+}
+.pieDePag div ul {
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.pieDePag div ul li a {
+  text-decoration: none;
+}
+.pieDePag div ul li a img {
+  width: 20px;
+  margin: 0 5px;
+  color: white;
+}
+.pieDePag div h3 {
+  font-size: 1rem;
+}
+.pieDePag div .rrss {
+  display: flex;
+  justify-content: center;
+}
+.pieDePag div .rrss li a img {
+  width: 30px;
+}
+.pieDePag div .footerAtencion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .pieDePag div h3 {
+    font-size: 1.5rem;
+  }
+  .pieDePag div ul li {
+    font-size: 1rem;
+  }
+  .pieDePag div .rrss li a img {
+    width: 35px;
+  }
+}
+@media (min-width: 1200px) {
+  .pieDePag div h3 {
+    font-size: 2rem;
+  }
+  .pieDePag div ul li {
+    font-size: 1.5rem;
+  }
+  .pieDePag div .rrss li a img {
+    width: 50px;
+  }
+}
+.main .sectionCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: start;
+}
+.main .sectionCard .card {
+  width: 250px;
+  background-color: #5C527F;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+.main .section-form-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-width: 5px;
+  font-size: 3rem;
+  margin: 50px;
+}
+.main .section-form-contact label {
+  margin: 10px 0px;
+  font-size: 1.2rem;
+}
+.main .section-form-contact input {
+  width: 200px;
+  height: 20px;
+}
+.main .section-form-contact .phone1 {
+  width: 60px;
+}
+.main .section-form-contact .phone2 {
+  width: 120px;
+}
+.main .section-form-contact .message {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .main .section-form-contact label {
+    margin: 10px 0px;
+    font-size: 1.2rem;
+  }
+  .main .section-form-contact input {
+    width: 600px;
+    height: 20px;
+  }
+  .main .section-form-contact .phone1 {
+    width: 100px;
+  }
+  .main .section-form-contact .phone2 {
+    width: 500px;
+  }
+  .main .section-form-contact .message {
+    width: 600px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .main .section-form-contact label {
+    margin: 10px 0px;
+    font-size: 2rem;
+  }
+  .main .section-form-contact input {
+    width: 1000px;
+    height: 30px;
+  }
+  .main .section-form-contact .phone1 {
+    width: 200px;
+  }
+  .main .section-form-contact .phone2 {
+    width: 790px;
+  }
+  .main .section-form-contact .message {
+    width: 1000px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+}
+.main .section-form-cuenta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 2rem;
+}
+.main .section-form-cuenta div {
+  margin: 50px;
+}
+.main .section-form-cuenta div .cajaIniciar {
+  display: flex;
+  flex-direction: column;
+}
+.main .section-form-cuenta div .cajaIniciar label {
+  margin: 10px;
+}
+.main .section-form-cuenta div .cajaRegistrar {
+  display: flex;
+  flex-direction: column;
+}
+.main .section-form-cuenta div .cajaRegistrar label {
+  margin: 10px;
+}
+.main .section-form-cuenta div h3 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+.main .section-form-cuenta div label {
+  font-size: 1rem;
+}
+.main .section-form-cuenta div button {
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .main .section-form-cuenta div .cajaIniciar label {
+    font-size: 1.5rem;
+  }
+  .main .section-form-cuenta div .cajaRegistrar label {
+    font-size: 1.5rem;
+  }
+  .main .section-form-cuenta div h3 {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 1200px) {
+  .main .section-form-cuenta h3 {
+    font-size: 5rem;
+  }
+  .main .section-form-cuenta .cajaIniciar label {
+    font-size: 2rem;
+  }
+  .main .section-form-cuenta .cajaRegistrar label {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=style.css.map */

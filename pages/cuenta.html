@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Inicia sesión o registrate para seguir las novedades en la mejor store de ropa Argentina">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Mi cuenta Indumentaria Store</title>
+</head>
+<body class="contenedor">
+    <nav class="navegador row-cols-3 d-md-flex flex-wrap justify-content-md-between align-content-center">
+    
+        <div class="col-12 col-md-4 col-xl-2 imgNavbar"><a href="../index.html"><img class="efectoLogo" src="../assets/img/logo-removebg-preview.png" alt=""></a></div>
+        <ul class="col-12 col-md-6 navBar">
+            <li><a href="./tienda.html">Tienda</a></li>
+            <li><a href="./contact.html">Contacto</a></li>
+            <li><a href="./cuenta.html">Cuenta</a></li>
+            <li><a href="./carrito.html">Carrito</a></li>
+        </ul>
+    
+        <form class="botonBuscar d-flex align-content-center align-items-center col-11 col-md-11 col-xl-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+            <button class="btn btn-danger">Buscar</button>
+        </form>
+    </nav>
+
+    <header><h1 class="display-1 text-center">Mi cuenta</h1></header>
+
+    <main class="main">
+        <section class="section-form-cuenta d-xl-flex flex-xl-row justify-content-xl-evenly">
+            
+            <div>
+                <h3>Iniciar sesión</h3>
+                <form class="cajaIniciar" action="">
+                    <label for="">Nombre de usuario</label>
+                    <input type="text">
+                    <label for="">Contraseña</label>
+                    <input type="password">
+                    <button class="btn-terciario">Iniciar sesión</button>
+                </form>
+            </div>
+            <div>
+                <h3>Registrarse</h3>
+                <form class="cajaRegistrar" action="">
+                    <label for="">Nombre de usuario</label>
+                    <input type="text">
+                    <label for="">Contraseña</label>
+                    <input type="password">
+                    <label for="">Email</label>
+                    <input type="email">
+                    <button class="btn-terciario">Crear cuenta</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pieDePag d-flex flex-md-row justify-content-md-around justify-content-xl-between"">
+        <div>
+            <h3>Perfil</h3>
+            <ul class="footerPerfil">
+                <li><a href="./cuenta.html">Mi cuenta</a></li>
+                <li><a href="./carrito.html">Carrito de compras</a></li>
+            </ul>
+        </div>
+        
+        <div>
+            <h3>Encuéntranos</h3>
+            <ul class="rrss">
+                <li><a href=""><img src="../assets/img/facebook-brands.svg" alt=""></a></li>
+                <li><a href=""><img src="../assets/img/instagram-brands.svg" alt=""></a></li>
+                <li><a href=""><img src="../assets/img/twitter-brands.svg" alt=""></a></li>
+            </ul>
+        </div>
+        
+        <div>
+            <h3>Atención al cliente</h3>
+            <ul class="footerAtencion">
+                <li>indumentariostore@gmail.com</li>
+                <li><a href="./contact.html">Contacto</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

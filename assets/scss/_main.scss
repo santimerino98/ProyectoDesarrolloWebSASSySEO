@@ -1,0 +1,36 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    .sectionPrincipal{
+        font-size: 1rem;
+        text-align: center;
+        margin: 10px;
+        img{
+            margin: 10px;
+        }
+    }
+}
+
+@media (min-width: 768px){
+    .main{
+        .sectionPrincipal{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+
+@media (min-width: 1200px){
+    .main{
+        .sectionPrincipal{
+            font-size: 1.5rem;
+            .carousel{
+                width: 1000px;
+                margin: auto;
+            }
+        }    
+    }
+}
+

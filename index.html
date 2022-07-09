@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La tienda de ropa para que vayas en la moda en Argentina, con los mejores productos al mejor precio">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Indumentaria Store</title>
+</head>
+<body class="contenedor">
+    <nav class="navegador row-cols-3 d-md-flex flex-wrap justify-content-md-between align-content-center">
+
+        <div class="col-12 col-md-4 col-xl-2 imgNavbar"><a href=""><img class="efectoLogo" src="./assets/img/logo-removebg-preview.png" alt=""></a></div>
+        <ul class="col-12 col-md-6 navBar">
+            <li><a href="./pages/tienda.html">Tienda</a></li>
+            <li><a href="./pages/contact.html">Contacto</a></li>
+            <li><a href="./pages/cuenta.html">Cuenta</a></li>
+            <li><a href="./pages/carrito.html">Carrito</a></li>
+        </ul>
+
+        <form class="botonBuscar d-flex align-content-center align-items-center col-11 col-md-11 col-xl-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+            <button class="btn btn-danger">Buscar</button>
+        </form>
+    </nav>
+
+    <header class="header">
+        <h1>Bienvenidos a Indumentaria Store, la mejor vestimenta</h1>
+    </header>
+
+    <main class="main">
+        <section class="sectionPrincipal">
+            <article>Somos una empresa que se dedica a la venta de indumentaria de todo tipo ¡disfruten nuestros artículos!</article>
+
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/modelos-ropa1.webp" class="d-block w-100" alt="Vestimenta a la moda">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/modelos-ropa2.webp" class="d-block w-100" alt="Vestimenta a la moda">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/modelos-ropa3.webp" class="d-block w-100" alt="Vestimenta a la moda">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="pieDePag d-flex flex-md-row justify-content-md-around justify-content-xl-between">
+        <div>
+            <h3>Perfil</h3>
+            <ul class="footerPerfil">
+                <li><a href="./pages/cuenta.html">Mi cuenta</a></li>
+                <li><a href="./pages/carrito.html">Carrito de compras</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Encuéntranos</h3>
+            <ul class="rrss">
+                <li><a href=""><img src="./assets/img/facebook-brands.svg" alt=""></a></li>
+                <li><a href=""><img src="./assets/img/instagram-brands.svg" alt=""></a></li>
+                <li><a href=""><img src="./assets/img/twitter-brands.svg" alt=""></a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Atención al cliente</h3>
+            <ul class="footerAtencion">
+                <li>indumentariostore@gmail.com</li>
+                <li><a href="./pages/contact.html">Contacto</a></li>
+            </ul>
+        </div>       
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

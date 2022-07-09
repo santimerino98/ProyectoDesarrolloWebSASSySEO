@@ -1,0 +1,20 @@
+@import "variables.scss";
+
+.btn{
+    padding:map-get($boton , padding );
+    border:map-get($boton , borde );
+    color: map-get($boton , color );
+    background-color: map-get($boton , fondo );
+}
+
+.btn-carrito{
+    @extend .btn;
+    border-radius: 1px;
+}
+
+@each $nombre, $color in $colores {
+    .btn-#{$nombre}{
+        background-color: $color;
+    }
+}
+
